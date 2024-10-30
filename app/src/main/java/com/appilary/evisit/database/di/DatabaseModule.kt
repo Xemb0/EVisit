@@ -2,7 +2,7 @@ package com.appilary.evisit.database.di
 
 import android.content.Context
 import com.appilary.evisit.database.ApiService
-import com.appilary.evisit.database.Repository
+import com.appilary.evisit.database.MainRepository
 import com.appilary.evisit.database.UserDao
 import dagger.Module
 import dagger.Provides
@@ -17,17 +17,17 @@ object DatabaseModule {
     @Provides
     @Singleton
     fun provideAppDatabase(@ApplicationContext context: Context) =
-        ChromiumDataBase.getInstance(context)
+        EVisitDataBase.getInstance(context)
 
     @Provides
-    fun provideRecipeDao(appDatabase: ChromiumDataBase): UserDao {
+    fun provideRecipeDao(appDatabase: EVisitDataBase): UserDao {
         return appDatabase.userDao()
     }
 
 
     @Provides
     @Singleton
-    fun provideBrowserRepository(apiService: ApiService): Repository {
-        return Repository(apiService)
+    fun provideBrowserRepository(apiService: ApiService): MainRepository {
+        return MainRepository(apiService)
     }
 }

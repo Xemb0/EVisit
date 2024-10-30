@@ -1,4 +1,4 @@
-package com.appilary.evisit.theme
+package com.volt.greenvolt.theme
 
 
 import androidx.compose.ui.graphics.Brush
@@ -13,7 +13,7 @@ val grayGradient = Brush.linearGradient(
     colors = listOf(Color.Gray, Color.Gray.copy(alpha = .7f))  // Use your color variables here
 )
 val ascentLightGradient = Brush.linearGradient(
-    colors = listOf(myAscent.copy(alpha = 0.2f), ascent.copy(alpha = 0.2f))  // Use your color variables here
+    colors = listOf(myAscent.copy(alpha = 0.1f), ascent.copy(alpha = 0.1f))  // Use your color variables here
 )
 val transparentGradient = Brush.linearGradient(
     colors = listOf(Color.Transparent, Color.Transparent)  // Use your color variables here
@@ -30,4 +30,7 @@ val reverseSecondaryGradient = Brush.linearGradient(
 )
 val lightSecondaryGradient = Brush.linearGradient(
     colors = listOf(mySecodary.copy(alpha = 0.3f), secondary.copy(alpha = 0.3f))  // Use your color variables here
+)
+val bgGradient = Brush.linearGradient(
+    colors = listOf(mySecodary.copy(alpha = 0.1f), secondary.copy(alpha = 0.1f))  // Use your color variables here
 )

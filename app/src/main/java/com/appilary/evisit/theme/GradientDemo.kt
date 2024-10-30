@@ -1,4 +1,4 @@
-package com.appilary.evisit.theme
+package com.volt.greenvolt.theme
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
@@ -64,6 +64,21 @@ fun GradientDemo() {
                 )
         ) {
             Text(text = "Secondary Gradient (30%)", modifier = Modifier.padding(16.dp), color = Color.White)
+        }
+        Spacer(modifier = Modifier.height(16.dp))
+
+        // Secondary Gradient
+        Box(
+            modifier = Modifier
+                .height(100.dp)
+                .fillMaxWidth()
+                .background(
+                    brush = Brush.linearGradient(
+                        colors = listOf(mySecodary.copy(alpha = .1f), secondary.copy(alpha = 0.1f))
+                    )
+                )
+        ) {
+            Text(text = "primum Gradient (30%)", modifier = Modifier.padding(16.dp), color = Color.White)
         }
     }
 }

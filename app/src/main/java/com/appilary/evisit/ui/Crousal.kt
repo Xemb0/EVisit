@@ -42,12 +42,12 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import coil.compose.AsyncImage
 import com.appilary.evisit.R
 import com.appilary.evisit.database.MainViewModel
-import com.appilary.evisit.theme.element
-import com.appilary.evisit.theme.myAscent
-import com.appilary.evisit.theme.myPrimary
-import com.appilary.evisit.theme.mySecodary
-import com.appilary.evisit.theme.myText
-import com.appilary.evisit.theme.secondary
+import com.volt.greenvolt.theme.element
+import com.volt.greenvolt.theme.myAscent
+import com.volt.greenvolt.theme.myPrimary
+import com.volt.greenvolt.theme.mySecodary
+import com.volt.greenvolt.theme.myText
+import com.volt.greenvolt.theme.secondary
 import kotlinx.coroutines.delay
 
 @Composable

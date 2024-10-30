@@ -7,6 +7,10 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="ascent">#FFFF4B63</color>
-    <color name="descent">#FFA454DD</color>
+    <color name="ascent">#154030</color>
+    <color name="descent">#35976D</color>
+    <color name="mytext">#FF24242C</color>
+    <color name="mytextlight">#363642</color>
+    <color name="gray">#9999AF</color>
+    <color name="graydark">#A4A4A4</color>
 </resources>

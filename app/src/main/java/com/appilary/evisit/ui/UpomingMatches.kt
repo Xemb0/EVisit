@@ -39,12 +39,12 @@ import coil.compose.AsyncImage
 import com.appilary.evisit.R
 import com.appilary.evisit.database.models.MatchOffer
 import com.appilary.evisit.database.models.UpcomingMatches
-import com.appilary.evisit.theme.lightSecondaryGradient
-import com.appilary.evisit.theme.myAscent
-import com.appilary.evisit.theme.myPrimary
-import com.appilary.evisit.theme.mySecodary
-import com.appilary.evisit.theme.myText
-import com.appilary.evisit.theme.secondary
+import com.volt.greenvolt.theme.lightSecondaryGradient
+import com.volt.greenvolt.theme.myAscent
+import com.volt.greenvolt.theme.myPrimary
+import com.volt.greenvolt.theme.mySecodary
+import com.volt.greenvolt.theme.myText
+import com.volt.greenvolt.theme.secondary
 import kotlinx.coroutines.delay
 
 fun LazyListScope.UpcomingMatches(upcomingMatches: UpcomingMatches?, isLoading: Boolean) {

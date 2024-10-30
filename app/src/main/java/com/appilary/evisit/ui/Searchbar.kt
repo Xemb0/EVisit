@@ -25,7 +25,7 @@ import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.appilary.evisit.theme.MyAppThemeColors
+import com.volt.greenvolt.theme.MyAppThemeColors
 
 @Composable
 fun SearchBar(

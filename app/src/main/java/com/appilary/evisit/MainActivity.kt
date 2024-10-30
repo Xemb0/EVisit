@@ -15,8 +15,9 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.ahmed_apps.location_tracker.LocationManager
 import com.appilary.evisit.database.MainViewModel
-import com.appilary.evisit.theme.MyAppThemeComposable
 import com.appilary.evisit.ui.HomePage
+import com.appilary.evisit.ui.mainscreen.MainScreen
+import com.volt.greenvolt.theme.MyAppThemeComposable
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.serialization.Serializable
 
@@ -53,20 +54,13 @@ class MainActivity : ComponentActivity() {
                     val navController = rememberNavController()
                     NavHost(
                         navController = navController,
-                        startDestination = NavLocationScreen
+                        startDestination = NavMainScreen
                     ) {
 
 
-                        composable<HomePage> {HomePage(
-//                                onSignUpClick = { userData ->
-//                                    navController.navigate(
-//                                        NavScreenCreateRoom(
-//                                            userId = userData.userId?:"",
-//                                            username = userData.username,
-//                                            profilePictureUrl = userData.profilePictureUrl
-//                                        )
-//                                    )
-//                                }
+                        composable<NavMainScreen> {
+                            MainScreen(
+
                             )
                         }
                         composable<NavLocationScreen> {LocationScreen(locationManager,applicationContext)
@@ -96,6 +90,9 @@ class MainActivity : ComponentActivity() {
 //    val profilePictureUrl: String?
 //)
 
+
+@Serializable
+data object NavMainScreen
 @Serializable
 data object HomePage
 

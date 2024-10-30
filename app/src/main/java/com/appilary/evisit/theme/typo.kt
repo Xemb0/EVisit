@@ -1,4 +1,4 @@
-package com.appilary.evisit.theme
+package com.volt.greenvolt.theme
 
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontFamily
@@ -14,13 +14,13 @@ val titleLarge = TextStyle(
 val titleMedium = TextStyle(
     fontFamily = FontFamily.Default,
     fontWeight = FontWeight.Bold,
-    fontSize = 24.sp
+    fontSize = 16.sp
 )
 
 val titleSmall = TextStyle(
     fontFamily = FontFamily.Default,
-    fontWeight = FontWeight.Bold,
-    fontSize = 20.sp
+    fontWeight = FontWeight.W200,
+    fontSize = 16.sp
 )
 
 val body = TextStyle(

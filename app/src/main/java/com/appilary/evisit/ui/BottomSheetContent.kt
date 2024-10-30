@@ -30,7 +30,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.appilary.evisit.R
-import com.appilary.evisit.theme.MyAppThemeColors
+import com.volt.greenvolt.theme.MyAppThemeColors
 
 
 @Composable

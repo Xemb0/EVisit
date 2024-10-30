@@ -1,4 +1,4 @@
-package com.appilary.evisit.theme
+package com.volt.greenvolt.theme
 
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape

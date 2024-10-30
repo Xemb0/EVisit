@@ -7,7 +7,7 @@ import com.appilary.evisit.database.models.UpcomingMatches
 import javax.inject.Inject
 
 
-class Repository @Inject constructor(private val apiService: ApiService) {
+class MainRepository @Inject constructor(private val apiService: ApiService) {
 
     suspend fun fetchData(): ApiResponse {
         println("data is coming from api ${apiService.getHomepageData().user_matches}")

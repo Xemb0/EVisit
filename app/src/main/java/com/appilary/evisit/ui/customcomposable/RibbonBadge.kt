@@ -20,7 +20,7 @@ import androidx.compose.ui.unit.Density
 import androidx.compose.ui.unit.LayoutDirection
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.appilary.evisit.theme.reverseSecondaryGradient
+import com.volt.greenvolt.theme.reverseSecondaryGradient
 
 @Composable
 fun RibbonBadge(text: String , modifier: Modifier) {

@@ -8,11 +8,11 @@ import com.appilary.evisit.database.UserDao
 import com.appilary.evisit.database.models.UserData
 
 @Database(entities = [UserData::class], version = 1, exportSchema = false)
-abstract class ChromiumDataBase : RoomDatabase() {
+abstract class EVisitDataBase : RoomDatabase() {
 
     companion object {
         fun getInstance(context: Context) =
-            Room.databaseBuilder(context, ChromiumDataBase::class.java, "Database")
+            Room.databaseBuilder(context, EVisitDataBase::class.java, "Database")
                 .fallbackToDestructiveMigration()
                 .build()
     }

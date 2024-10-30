@@ -52,12 +52,12 @@ import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.appilary.evisit.R
-import com.appilary.evisit.database.MainViewModel
-import com.appilary.evisit.theme.ascentGradient
-import com.appilary.evisit.theme.element
-import com.appilary.evisit.theme.grayGradient
-import com.appilary.evisit.theme.myAscent
-import com.appilary.evisit.theme.secondaryGradient
+    import com.appilary.evisit.database.MainViewModel
+import com.volt.greenvolt.theme.ascentGradient
+import com.volt.greenvolt.theme.element
+import com.volt.greenvolt.theme.grayGradient
+import com.volt.greenvolt.theme.myAscent
+import com.volt.greenvolt.theme.secondaryGradient
 import kotlinx.coroutines.launch
 
 @OptIn(ExperimentalMaterial3Api::class)

@@ -1,4 +1,4 @@
-package com.appilary.evisit.theme
+package com.volt.greenvolt.theme
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.runtime.Composable
